@@ -50,10 +50,4 @@ void rewind(FILE *stream);
 int fgetpos(FILE *stream, fpos_t *ptr);
 int fsetpos(FILE *stream, const fpos_t *ptr);
 
-/* Error Functions */
-void clearerr(PILE *stream);
-int feof(FILE *stream);
-int ferror(FILE *stream);
-void perror(const char *s);
-
 #endif
